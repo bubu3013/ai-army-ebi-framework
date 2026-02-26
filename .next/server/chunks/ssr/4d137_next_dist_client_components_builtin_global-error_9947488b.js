@@ -1,0 +1,3 @@
+module.exports=[70660,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(97562);a.n(d("[project]/ai-army-ebi-framework/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},6445,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(97562);a.n(d("[project]/ai-army-ebi-framework/node_modules/next/dist/client/components/builtin/global-error.js"))},59430,a=>{"use strict";a.i(70660);var b=a.i(6445);a.n(b)}];
+
+//# sourceMappingURL=4d137_next_dist_client_components_builtin_global-error_9947488b.js.map

@@ -1,1 +1,8 @@
-{"/_not-found/page":"/_not-found","/api/health-predict/route":"/api/health-predict","/health/upload/page":"/health/upload","/health/page":"/health","/page":"/"}
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/health-predict/route": "/api/health-predict",
+  "/health/page": "/health",
+  "/health/upload/page": "/health/upload",
+  "/page": "/"
+}
