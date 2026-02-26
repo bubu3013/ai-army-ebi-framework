@@ -1,0 +1,82 @@
+[
+  {
+    "id": "full",
+    "label": "Full vB (baseline)",
+    "features_removed": "—",
+    "dir_acc": 3,
+    "avg_ordinal_mae": 0.0,
+    "avg_rps": 0.267,
+    "delta_rps": 0.0,
+    "impact": "none"
+  },
+  {
+    "id": "AB1",
+    "label": "AB-1",
+    "features_removed": "Historical sales qty",
+    "dir_acc": 2,
+    "avg_ordinal_mae": 0.333,
+    "avg_rps": 0.32,
+    "delta_rps": 0.053,
+    "impact": "minor"
+  },
+  {
+    "id": "AB2",
+    "label": "AB-2 🔴",
+    "features_removed": "Bundle promotion (discount + start date + duration)",
+    "dir_acc": 1,
+    "avg_ordinal_mae": 1.0,
+    "avg_rps": 0.507,
+    "delta_rps": 0.24,
+    "impact": "critical"
+  },
+  {
+    "id": "AB3",
+    "label": "AB-3",
+    "features_removed": "Bulk purchase promotion",
+    "dir_acc": 2,
+    "avg_ordinal_mae": 0.333,
+    "avg_rps": 0.286,
+    "delta_rps": 0.019,
+    "impact": "minor"
+  },
+  {
+    "id": "AB4",
+    "label": "AB-4 🔵",
+    "features_removed": "Epidemic / search signals (epidemic index + gt_flu + gt_cold + gt_immunity)",
+    "dir_acc": 3,
+    "avg_ordinal_mae": 0.0,
+    "avg_rps": 0.229,
+    "delta_rps": -0.037,
+    "impact": "positive"
+  },
+  {
+    "id": "AB5",
+    "label": "AB-5",
+    "features_removed": "Competitor search volume",
+    "dir_acc": 3,
+    "avg_ordinal_mae": 0.0,
+    "avg_rps": 0.267,
+    "delta_rps": 0.0,
+    "impact": "none"
+  },
+  {
+    "id": "AB6",
+    "label": "AB-6",
+    "features_removed": "Temperature",
+    "dir_acc": 3,
+    "avg_ordinal_mae": 0.0,
+    "avg_rps": 0.267,
+    "delta_rps": 0.0,
+    "impact": "none"
+  },
+  {
+    "id": "AB7",
+    "label": "AB-7",
+    "features_removed": "Seasonal event tag",
+    "dir_acc": 3,
+    "avg_ordinal_mae": 0.0,
+    "avg_rps": 0.267,
+    "delta_rps": 0.0,
+    "impact": "none"
+  }
+]

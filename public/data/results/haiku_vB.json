@@ -1,0 +1,50 @@
+[
+  {
+    "model": "haiku",
+    "version": "vB",
+    "month": "2025-08",
+    "true_class": "High",
+    "pred_class": "Mid",
+    "correct": 0,
+    "prob_L": 0.35,
+    "prob_M": 0.45,
+    "prob_H": 0.2,
+    "rps": 0.7625,
+    "log_score": -1.6094,
+    "ordinal_mae": 1,
+    "step1_b": "F1,F3",
+    "notes": "CoT放大偏誤"
+  },
+  {
+    "model": "haiku",
+    "version": "vB",
+    "month": "2025-09",
+    "true_class": "Low",
+    "pred_class": "Low",
+    "correct": 1,
+    "prob_L": 0.4,
+    "prob_M": 0.35,
+    "prob_H": 0.25,
+    "rps": 0.4225,
+    "log_score": -0.9163,
+    "ordinal_mae": 0,
+    "step1_b": "F1,F4",
+    "notes": ""
+  },
+  {
+    "model": "haiku",
+    "version": "vB",
+    "month": "2025-10",
+    "true_class": "High",
+    "pred_class": "High",
+    "correct": 1,
+    "prob_L": 0.25,
+    "prob_M": 0.35,
+    "prob_H": 0.4,
+    "rps": 0.4225,
+    "log_score": -0.9163,
+    "ordinal_mae": 0,
+    "step1_b": "F1,F3",
+    "notes": ""
+  }
+]

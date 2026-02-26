@@ -1,0 +1,50 @@
+[
+  {
+    "model": "gpt-4o",
+    "version": "vB",
+    "month": "2025-08",
+    "true_class": "High",
+    "pred_class": "High",
+    "correct": 1,
+    "prob_L": 0.2,
+    "prob_M": 0.35,
+    "prob_H": 0.45,
+    "rps": 0.3425,
+    "log_score": -0.7985,
+    "ordinal_mae": 0,
+    "step1_b": "F3",
+    "notes": "Step1:[B]=3 促銷吸引"
+  },
+  {
+    "model": "gpt-4o",
+    "version": "vB",
+    "month": "2025-09",
+    "true_class": "Low",
+    "pred_class": "Low",
+    "correct": 1,
+    "prob_L": 0.45,
+    "prob_M": 0.4,
+    "prob_H": 0.15,
+    "rps": 0.325,
+    "log_score": -0.7985,
+    "ordinal_mae": 0,
+    "step1_b": "F1,F4",
+    "notes": "CoT翻轉關鍵：需求存在但無促銷觸發"
+  },
+  {
+    "model": "gpt-4o",
+    "version": "vB",
+    "month": "2025-10",
+    "true_class": "High",
+    "pred_class": "High",
+    "correct": 1,
+    "prob_L": 0.1,
+    "prob_M": 0.25,
+    "prob_H": 0.65,
+    "rps": 0.1325,
+    "log_score": -0.4308,
+    "ordinal_mae": 0,
+    "step1_b": "F3,F4",
+    "notes": ""
+  }
+]

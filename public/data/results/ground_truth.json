@@ -1,0 +1,30 @@
+{
+  "months": [
+    {
+      "month": "2025-08",
+      "label": "Month 8",
+      "true_class": "High",
+      "true_sales_qty": 668,
+      "description": "搭贈促銷 08/19 起（13天），折扣率 30.24%"
+    },
+    {
+      "month": "2025-09",
+      "label": "Month 9",
+      "true_class": "Low",
+      "true_sales_qty": 316,
+      "description": "無公司促銷，消費者觀望藥局週年慶，gt_flu=75 全年最高"
+    },
+    {
+      "month": "2025-10",
+      "label": "Month 10",
+      "true_class": "High",
+      "true_sales_qty": 904,
+      "description": "搭贈+多量售+藥局週年慶三重疊加"
+    }
+  ],
+  "cutpoints": {
+    "Low": "≤363",
+    "Mid": "364–446",
+    "High": "≥447"
+  }
+}

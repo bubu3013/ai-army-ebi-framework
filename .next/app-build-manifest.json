@@ -1,0 +1,55 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-536d12d2a5971c05.js",
+      "static/chunks/4bd1b696-9dbab95f2b916f43.js",
+      "static/chunks/517-1021377e0877c00f.js",
+      "static/chunks/main-app-5ad056bc57cd9e7b.js",
+      "static/chunks/app/_not-found/page-3d0b4dc0542d176f.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-536d12d2a5971c05.js",
+      "static/chunks/4bd1b696-9dbab95f2b916f43.js",
+      "static/chunks/517-1021377e0877c00f.js",
+      "static/chunks/main-app-5ad056bc57cd9e7b.js",
+      "static/css/7e9957ad484a4462.css",
+      "static/chunks/525-51177d6821c160b2.js",
+      "static/chunks/173-96d4e588844f767b.js",
+      "static/chunks/app/layout-b9b1b163836efc42.js"
+    ],
+    "/api/health-predict/route": [
+      "static/chunks/webpack-536d12d2a5971c05.js",
+      "static/chunks/4bd1b696-9dbab95f2b916f43.js",
+      "static/chunks/517-1021377e0877c00f.js",
+      "static/chunks/main-app-5ad056bc57cd9e7b.js",
+      "static/chunks/app/api/health-predict/route-72dac0a6159f1064.js"
+    ],
+    "/health/upload/page": [
+      "static/chunks/webpack-536d12d2a5971c05.js",
+      "static/chunks/4bd1b696-9dbab95f2b916f43.js",
+      "static/chunks/517-1021377e0877c00f.js",
+      "static/chunks/main-app-5ad056bc57cd9e7b.js",
+      "static/chunks/525-51177d6821c160b2.js",
+      "static/chunks/644-30517ed95de54dcc.js",
+      "static/chunks/app/health/upload/page-513e9237f2246236.js"
+    ],
+    "/health/page": [
+      "static/chunks/webpack-536d12d2a5971c05.js",
+      "static/chunks/4bd1b696-9dbab95f2b916f43.js",
+      "static/chunks/517-1021377e0877c00f.js",
+      "static/chunks/main-app-5ad056bc57cd9e7b.js",
+      "static/chunks/525-51177d6821c160b2.js",
+      "static/chunks/644-30517ed95de54dcc.js",
+      "static/chunks/480-99e189938e1ae19a.js",
+      "static/chunks/app/health/page-dda60a5be0046027.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-536d12d2a5971c05.js",
+      "static/chunks/4bd1b696-9dbab95f2b916f43.js",
+      "static/chunks/517-1021377e0877c00f.js",
+      "static/chunks/main-app-5ad056bc57cd9e7b.js",
+      "static/chunks/173-96d4e588844f767b.js",
+      "static/chunks/app/page-da7ce9f1c6153efc.js"
+    ]
+  }
+}
