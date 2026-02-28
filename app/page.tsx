@@ -24,81 +24,15 @@ export default function PortalPage() {
           </p>
         </div>
 
-        {/* Case study cards */}
+        {/* Experiment cards */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-4xl">
 
-          {/* Case I — Election */}
-          <a
-            href="https://ai-army-vis.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group block"
-          >
-            <Card className="border-border h-full transition-shadow hover:shadow-md">
-              <CardHeader className="pb-3">
-                <div className="flex items-center justify-between mb-2">
-                  <Badge variant="secondary" className="text-xs">Case Study I</Badge>
-                  <Badge variant="outline" className="text-xs text-primary border-primary/30">
-                    ✓ Published
-                  </Badge>
-                </div>
-                <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-lg bg-primary/10">
-                    <BarChart3 className="h-5 w-5 text-primary" />
-                  </div>
-                  <CardTitle className="text-xl">2024 Taiwan Presidential Election</CardTitle>
-                </div>
-                <CardDescription className="mt-2 leading-relaxed">
-                  Demographics + self-reported vote intention → predicted vote distribution.
-                  GPT-4o achieves JS-D = 0.0002, outperforming respondents&apos; own stated preferences.
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                {/* ABC pills */}
-                <div className="flex flex-wrap gap-2 text-xs">
-                  <span className="px-2 py-1 rounded bg-primary/10 text-primary border border-primary/20">
-                    [A] Demographics
-                  </span>
-                  <span className="px-2 py-1 rounded bg-accent/10 text-accent border border-accent/20">
-                    [B] Vote Intention
-                  </span>
-                  <span className="px-2 py-1 rounded bg-chart-4/10 text-chart-4 border border-chart-4/20">
-                    [C] Election Result
-                  </span>
-                </div>
-
-                {/* Stats */}
-                <div className="grid grid-cols-3 gap-4 pt-2 border-t border-border">
-                  {[
-                    { label: "JS-Divergence ↓", value: "0.0002" },
-                    { label: "Winner Accuracy", value: "100%"   },
-                    { label: "Models Tested",   value: "3"       },
-                  ].map(({ label, value }) => (
-                    <div key={label}>
-                      <p className="text-2xl font-semibold">{value}</p>
-                      <p className="text-xs text-muted-foreground mt-0.5">{label}</p>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="flex items-center justify-between pt-1">
-                  <div className="flex gap-2">
-                    {["GPT-4", "GPT-4o", "Haiku"].map(m => (
-                      <Badge key={m} variant="secondary" className="text-xs">{m}</Badge>
-                    ))}
-                  </div>
-                  <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
-                </div>
-              </CardContent>
-            </Card>
-          </a>
-
-          {/* Case III — Health Food */}
+          {/* Experiment I — Health Food */}
           <Link href="/health" className="group block">
             <Card className="border-border h-full transition-shadow hover:shadow-md">
               <CardHeader className="pb-3">
                 <div className="flex items-center justify-between mb-2">
-                  <Badge variant="secondary" className="text-xs">Case Study III</Badge>
+                  <Badge variant="secondary" className="text-xs">Experiment I</Badge>
                   <Badge variant="outline" className="text-xs text-green-600 border-green-300">
                     ✓ New
                   </Badge>
@@ -153,6 +87,72 @@ export default function PortalPage() {
               </CardContent>
             </Card>
           </Link>
+
+          {/* Experiment II — Election */}
+          <a
+            href="https://ai-army-vis.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block"
+          >
+            <Card className="border-border h-full transition-shadow hover:shadow-md">
+              <CardHeader className="pb-3">
+                <div className="flex items-center justify-between mb-2">
+                  <Badge variant="secondary" className="text-xs">Experiment II</Badge>
+                  <Badge variant="outline" className="text-xs text-primary border-primary/30">
+                    ✓ Published
+                  </Badge>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 rounded-lg bg-primary/10">
+                    <BarChart3 className="h-5 w-5 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl">2024 Taiwan Presidential Election</CardTitle>
+                </div>
+                <CardDescription className="mt-2 leading-relaxed">
+                  Demographics + self-reported vote intention → predicted vote distribution.
+                  GPT-4o achieves JS-D = 0.0002, outperforming respondents&apos; own stated preferences.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                {/* ABC pills */}
+                <div className="flex flex-wrap gap-2 text-xs">
+                  <span className="px-2 py-1 rounded bg-primary/10 text-primary border border-primary/20">
+                    [A] Demographics
+                  </span>
+                  <span className="px-2 py-1 rounded bg-accent/10 text-accent border border-accent/20">
+                    [B] Vote Intention
+                  </span>
+                  <span className="px-2 py-1 rounded bg-chart-4/10 text-chart-4 border border-chart-4/20">
+                    [C] Election Result
+                  </span>
+                </div>
+
+                {/* Stats */}
+                <div className="grid grid-cols-3 gap-4 pt-2 border-t border-border">
+                  {[
+                    { label: "JS-Divergence ↓", value: "0.0002" },
+                    { label: "Winner Accuracy", value: "100%"   },
+                    { label: "Models Tested",   value: "3"       },
+                  ].map(({ label, value }) => (
+                    <div key={label}>
+                      <p className="text-2xl font-semibold">{value}</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">{label}</p>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="flex items-center justify-between pt-1">
+                  <div className="flex gap-2">
+                    {["GPT-4", "GPT-4o", "Haiku"].map(m => (
+                      <Badge key={m} variant="secondary" className="text-xs">{m}</Badge>
+                    ))}
+                  </div>
+                  <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                </div>
+              </CardContent>
+            </Card>
+          </a>
         </div>
 
         {/* Footer note */}

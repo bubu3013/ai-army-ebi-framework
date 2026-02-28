@@ -10,7 +10,7 @@ export function MainNav() {
 
   const links = [
     { href: "/",               label: "Portal",           icon: LayoutGrid  },
-    { href: "/health",         label: "Health Dashboard", icon: BarChart3   },
+    { href: "/health",         label: "Dashboard",         icon: BarChart3   },
     { href: "/health/upload",  label: "Upload & Predict", icon: UploadCloud },
   ]
 
